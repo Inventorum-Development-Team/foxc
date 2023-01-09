@@ -1,0 +1,127 @@
+armors:
+  - type: GOBLIN_ARMOR0
+    spriteInv: GoblinInventoryImage
+  - type: WRAITH_ARMOR0
+    spriteInv: GoblinInventoryImage
+  - type: ORC_ARMOR0
+    spriteInv: GoblinInventoryImage
+
+extraSprites:
+  # - type: TEXTURE.DAT
+  #   width: 544
+  #   height: 96
+  #   subX: 32
+  #   subY: 32
+  #   files:
+  #     0: Resources/foxc/GEOSCAPE/TEXTURES4.png
+  - type: GOBLIN.PCK
+    width: 640
+    height: 560
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOXC/UNITS/GOBLIN/goblin.png
+  # - type: ORC.PCK
+  #   width: 512
+  #   height: 720
+  #   subX: 32
+  #   subY: 40
+  #   files:
+  #     0: Resources/FOXC/UNITS/ORC/ORCS1.png
+
+  # - type: WRAITH.PCK
+  #   width: 640
+  #   height: 560
+  #   subX: 32
+  #   subY: 40
+  #   files:
+  #     0: Resources/FOXC/UNITS/wraith/wraith_unit.png
+
+  # - type: Projectiles
+  #   height: 3
+  #   width: 105
+  #   subX: 3
+  #   subY: 3
+  #   files:
+  #     385: Resources/AlienArmouryExpanded/Bullets/toxic_bullet.gif
+
+  # - type: HANDOB.PCK
+  #   files:
+  #     # 300: Resources/foxc/
+
+  # - type: HANDOB.PCK
+  #   files:
+  #     # 300: Resources/foxc/
+  #     300: Resources/foxc/Axe_handobj/
+  #     308: Resources/foxc/Bow_handobj/
+  #     316: Resources/foxc/Crossbow_handobj/
+  #     324: Resources/foxc/Sword_handobj/
+  #     332: Resources/foxc/Spear_handobj/
+  #     340: Resources/foxc/Shield_handobj/
+
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      300: Resources/foxc/Axe_handobj/
+      308: Resources/foxc/handobj/Bow.png
+      316: Resources/foxc/handobj/Crossbow.png
+      324: Resources/foxc/handobj/Sword.png
+      332: Resources/foxc/handobj/SpearFOXY.png
+      340: Resources/foxc/Shield_handobj/
+      348: Resources/foxc/magic_sphere/handobj/fire_sphere.png
+
+  - type: BIGOBS.PCK
+    files:
+      #UNITS
+      400: Resources/foxc/UNITS/GOBLIN/bigob-goblin.png
+      # 401: Resources/foxc/UNITS/ORC/bigobs_orc.png
+      # 402: Resources/foxc/UNITS/WRAITH/bigobs_wraith.png
+
+      #ITEMS
+      500: Resources/foxc/bigobs/Ax.gif
+      501: Resources/foxc/bigobs/Bow.gif
+      502: Resources/foxc/bigobs/Crossbow.gif
+      503: Resources/foxc/bigobs/Sword_Basic.png
+      504: Resources/foxc/bigobs/Spear.png
+      505: Resources/foxc/bigobs/Gothic_Shield.png
+      506: Resources/foxc/bigobs/bigob_Arrow.png
+      507: Resources/foxc/bigobs/bigob_Bolt.png
+      508: Resources/foxc/magic_sphere/FIRE_SPHERE.gif
+
+      # 500: Resources/foxc/bigobs/bigob_Axe.gif
+      # 501: Resources/foxc/bigobs/bigob_Bow.gif
+      # 502: Resources/foxc/bigobs/bigob_Crossbow.gif
+      # 503: Resources/foxc/bigobs/bigob_Sword.gif
+      # 504: Resources/foxc/bigobs/bigob_Spear.gif
+      # 505: Resources/foxc/bigobs/bigob_Shield.gif
+      # 506: Resources/foxc/bigobs/bigob_Arrow.png
+      # 507: Resources/foxc/bigobs/bigob_Bolt.png
+
+  - type: FLOOROB.PCK
+    files:
+      #UNITS floorob_orc.png
+      600: Resources/foxc/UNITS/GOBLIN/floorob-goblin-0.png
+      # 601: Resources/foxc/UNITS/ORC/floorob_orc.png
+      # 602: Resources/foxc/UNITS/WRAITH/floorob_wraith.png
+
+      #ITEMS
+      700: Resources/foxc/FloorObj/FloorAxe.gif
+      701: Resources/foxc/FloorObj/FloorBow.gif
+      702: Resources/foxc/FloorObj/FloorCrossbow.gif
+      703: Resources/foxc/FloorObj/FloorPSBlade.png
+      704: Resources/foxc/FloorObj/FloorSpear.png
+      705: Resources/foxc/FloorObj/FloorShield.png
+      706: Resources/foxc/FloorObj/FloorArrows.gif
+      707: Resources/foxc/FloorObj/FloorBolts.gif
+      708: Resources/foxc/magic_sphere/Floor_Fire_sphere.png
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      800: Resources/foxc/Sounds/hit.wav
+
+# musics:
+#   - type: GMTACWET

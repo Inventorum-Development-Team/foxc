@@ -1,0 +1,19 @@
+Archive created by -=MIRSOFT=-
+Look for game MIDs at http://go.to/gamemids
+
+*** Archive info ***
+Archiver: Borg No. One
+Type: Game Rip
+Format: MID
+Original Composer: Allister Brimble, Andrew Parton, John Broomhall
+Sequencer: Allister Brimble, Andrew Parton, John Broomhall
+Num of tunes: 20
+Complete: 100%
+
+*** Game info ***
+Name: X-COM: Terror from the Deep
+Platform: PC Dos
+Year: 1995
+Genre: Strategy
+Publisher: Microprose
+Developer: Microprose

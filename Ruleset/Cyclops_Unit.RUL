@@ -1,0 +1,288 @@
+alienRaces: # usually in file AlianRaces.rul
+  - id: STR_CYCLOPS_Warband
+    members:
+      - STR_CYCLOPS_COMMANDER #COMMANDER
+      - STR_CYCLOPS_LEADER # LEADER
+      - STR_CYCLOPS_SHAMAN # ENGINEER
+      - STR_CYCLOPS_MEDIC #MEDIC
+      - STR_CYCLOPS_NAVIGATOR # NAVIGATOR
+      - STR_CYCLOPS_SOLDIER #SOLDIER
+      - STR_CYCLOPS_TERRORIST #TERRORIST
+      - STR_CYCLOPS_TERRORIST #TERRORIST
+units: # Usually in file Armor.rul
+
+  - type: STR_CYCLOPS_SOLDIER
+    race: STR_CYCLOPS_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+    armor: STD_CYCLOPS_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_CYCLOPS_LEADER
+    rank: STR_LIVE_SOLDIER
+    race: STR_CYCLOPS_RACE
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+    armor: STD_CYCLOPS_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_CYCLOPS_SHAMAN
+    rank: STR_LIVE_SOLDIER
+    race: STR_CYCLOPS_RACE
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 40
+      strength: 40
+      psiStrength: 100
+      psiSkill: 60
+      melee: 40
+    armor: STD_CYCLOPS_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_CYCLOPS_NAVIGATOR
+    rank: STR_LIVE_SOLDIER
+    race: STR_CYCLOPS_RACE
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+    armor: STD_CYCLOPS_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_CYCLOPS_MEDIC
+    rank: STR_LIVE_SOLDIER
+    race: STR_CYCLOPS_RACE
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+    armor: STD_CYCLOPS_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_CYCLOPS_COMMANDER
+    rank: STR_LIVE_SOLDIER
+    race: STR_CYCLOPS_RACE
+    stats:
+      tu: 95
+      stamina: 95
+      health: 95
+      bravery: 90
+      reactions: 80
+      firing: 85
+      throwing: 95
+      strength: 90
+      psiStrength: 75
+      psiSkill: 0
+      melee: 77
+    armor: STD_CYCLOPS_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_CYCLOPS_TERRORIST
+    rank: STR_LIVE_SOLDIER
+    race: STR_CYCLOPS_RACE
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+    armor: STD_CYCLOPS_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+
+armors: # Usually in file Armor.rul
+#  - delete: STR_PERSONAL_ARMOR_UC An example of how to remove unwanted utem
+  - type: STD_CYCLOPS_ARMOR_A  
+    spriteSheet: CYCLOPS.PCK
+    corpseBattle:
+      - STR_CORPSE_CYCLOPS
+    allowsKneeling: false
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 14
+    underArmor: 12
+    drawingRoutine: 10  # MUST BE UPDATED TO REFLECT SPRITESET USED AS BASE
+    DAMAGEModifier:
+      - 1.0 # DAMAGE TYPE - NONE
+      - 1.0 # DAMAGE TYPE - ARMOR PIERCING
+      - 1.0 # DAMAGE TYPE - INCENDIARY
+      - 1.0 # DAMAGE TYPE - HIGH EXPLOSIVE
+      - 1.0 # DAMAGE TYPE - LASER
+      - 1.1 # DAMAGE TYPE - PLASMA
+      - 1.0 # DAMAGE TYPE - STUN
+      - 1.2 # DAMAGE TYPE - MELEE
+      - 1.0 # DAMAGE TYPE - ACID
+      - 0.0 # DAMAGE TYPE - SMOKE
+    loftempsSet: [ 3 ]
+    spriteInv: CYCLOPSInventoryImage      
+ 
+  - type: CYCLOPS_ARMOR0  #STD CYCLOPS
+    spriteInv: CYCLOPSInventoryImage
+
+items: #usually in file ITEMS.rul
+  - type: STR_CYCLOPS_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CYCLOPS_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CYCLOPS_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CYCLOPS_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CYCLOPS_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CYCLOPS_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CORPSE_CYCLOPS #HAIR
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 420     #MUST BE UPDATED TO REFLECT BIGOB SPRITE
+    floorSprite: 620   #MUST BE UPDATED TO REFLECT FLOOROB SPRITE
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+extraSprites:
+# STD CYCLOPS
+  - type: CYCLOPS.PCK  #battlescape unit sprites
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOXC/UNITS/Cyclops_big/bcy1.png
+
+  - type: BIGOBS.PCK  #dead unit inventory item
+    files:
+      420: Resources/foxc/UNITS/Cyclops_big/bigobs_bcy.png
+
+  - type: FLOOROB.PCK #  Dead unit  floor object in battlescape
+    files:
+      620: Resources/foxc/UNITS/Cyclops_big/floorob_bcy.png
+
+      #Inventory image in battlescape
+  - type: CYCLOPSInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/foxc/UNITS/Cyclops_big/cycclopsInv_full.png
+
+extraSounds:
+- type: BATTLE.CAT
+  files:
+      55: Resources/Sound/AlienAcid.wav # TESTING SOUND ONLY
+      57: Resources/Sound/Secdeath.wav # TESTING SOUND ONLY
+      59: Resources/Sound/Calcinite.wav # TESTING SOUND ONLY
+      60: Resources/Sound/Schrill.wav # TESTING SOUND ONLY
+      61: Resources/Sound/tadeath.wav # TESTING SOUND ONLY

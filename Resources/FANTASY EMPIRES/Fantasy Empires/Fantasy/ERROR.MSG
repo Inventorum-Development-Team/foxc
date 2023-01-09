@@ -1,0 +1,83 @@
+ERROR0No Error Found|
+ERROR1Error #1, AIL Version Conflict.
+Reinstall your game under a different directory name.|
+ERROR2Undefined Error.
+Re-installation may correct this.|
+ERROR3Undefined Error.
+Re-installation may correct this.|
+ERROR4Timbre Not in GTL File.
+Re-installation may correct this.|
+ERROR5GTL File Not Found.
+Re-installation may correct this.|
+ERROR6Undefined Error.
+Re-installation may correct this.|
+ERROR7Can't Allocate Timbre Memory.
+There is insufficient memory to play. Eliminate any non-essential memory
+resident programs from memory, or use a bootable disk. Consult your DOS
+manual for instructions on the creation of a system diskette.|
+ERROR8Can't Allocate Sequence State Tables.
+There is insufficient memory to play. Eliminate any non-essential memory
+resident programs from memory, or use a bootable disk. Consult your DOS
+manual for instructions on the creation of a system diskette.|
+ERROR9Undefined Error.
+Re-installation may correct this.|
+ERROR10Driver File Not Found|
+Re-Installation Should Correct This.|
+ERROR11Sample File Not Found.
+Re-Installation Should Correct This.|
+ERROR12Can't Allocate Sample Buffer.
+There is insufficient memory to play. Eliminate any non-essential memory
+resident programs from memory, or use a bootable disk. Consult your DOS
+manual for instructions on the creation of a system diskette.|
+ERROR13Sound.cfg is Corrupt.
+Re-Run SOUND.EXE From Your Game Directory, And Re-Select Your Sound Card.
+Re-Installation May Also Correct This.|
+ERROR14Sequence File Not Found.
+Re-Installation Should Correct This.|
+ERROR15Can't Allocate Driver Buffer.
+There is insufficient memory to play. Eliminate any non-essential memory
+resident programs from memory, or use a bootable disk. Consult your DOS
+manual for instructions on the creation of a system diskette.|
+ERROR16Sound.cfg File Not Found.
+Re-Run SOUND.EXE From Your Game Directory, And Re-Select Your Sound Card.
+Re-Installation May Also Correct This.|
+ERROR17Undefined Error.
+Re-installation may correct this.|
+ERROR18GFF File Not Found.
+Re-installation should correct this.|
+ERROR19Unable to Close GFF File.
+This may be due to insufficient disk space. Run CHKDSK from your DOS
+directory to determine free disk space.|
+ERROR20Unable to Get GFF Chunk Size
+Re-installation of the game should correct this.|
+ERROR21Can't Load Sample Block File Unless in Swap Mode|
+ERROR22Sample Block File Not Found.
+Re-Installation of the game should correct this.|
+ERROR23File Not Found
+Re-Installation of the game should correct this.|
+ERROR24DSP Driver File Not Found.
+Re-Installation of the game should Correct this.|
+ERROR25Failure to Detect MIDI Sound Card.
+Re-Run SOUND.EXE And Check Your Settings. If this fails to correct the
+problem, run your music cards diagnostic software. This is most often caused
+by incorrect or conflicting port address setting.|
+ERROR26Failure to Detect DSP Sound Card.
+Re-Run SOUND.EXE And Check Your Settings. If this fails to correct the
+problem, run your sound cards diagnostic software. This is most often caused
+by incorrect or conflicting interrupt (IRQ) or DMA settings.|
+ERROR27Failure to Allocate Clock Buffer.
+There is insufficient memory. Eliminate any non-essential memory resident
+programs.|
+ERROR28File I-O Error.
+A Disc Error Has Occured.|
+ERROR29Unable to Initialize the CD rom driver MSCDEX.EXE
+Check the Installation of Your CD ROM drive and the Installation of
+the Driver Mscdex.exe.|
+ERROR30Clock File Not Found...|
+ERROR31GTL File Not Open...|
+ERROR32Cannot allocate Timbre memory...|
+ERROR33The BLASTER environmental variable has not been found, installation of the
+Software that accompanys the ASP16 will correct this...|
+
+
+

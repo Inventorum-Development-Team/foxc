@@ -1,0 +1,287 @@
+items:
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_ALIEN_FOOD
+  - delete: STR_UFO_CONSTRUCTION
+  - delete: STR_ALIEN_REPRODUCTION
+  - delete: STR_ALIEN_ENTERTAINMENT
+  - delete: STR_ALIEN_SURGERY
+  - delete: STR_EXAMINATION_ROOM
+  - delete: STR_ALIEN_HABITAT
+  - delete: STR_MEDI_KIT
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_AVALANCHE_LAUNCHER
+  - delete: STR_AVALANCHE_MISSILES
+  - delete: STR_FUSION_BALL_LAUNCHER
+  - delete: STR_FUSION_BALL
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_TANK_CANNON
+  - delete: STR_HWP_CANNON_SHELLS
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_HWP_ROCKETS
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_HWP_FUSION_BOMB
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_PSI_AMP
+  - delete: STR_MIND_PROBE
+  - delete: STR_LASER_CANNON
+  - delete: STR_CANNON
+  - delete: STR_CANNON_ROUNDS_X50
+  - delete: STR_STINGRAY_LAUNCHER
+  - delete: STR_STINGRAY_MISSILES
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_SMOKE_GRENADE
+  - delete: STR_GRENADE
+  - delete: STR_ELECTRO_FLARE
+  - type: STR_GOBLIN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CORPSE_GOBLIN
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 400
+    floorSprite: 600
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_AXE
+    # requires:
+      # - STR_AXE
+    size: 0.1
+    costBuy: 8000
+    costSell: 6000
+    transferTime: 48
+    weight: 4
+    bigSprite: 500
+    floorSprite: 700
+    handSprite: 300
+    meleeSound: 57
+    hitAnimation: 0
+    accuracyMelee: 100
+    tuMelee: 30
+    power: 60
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    listOrder: 4515
+  - type: STR_BOW
+    size: 0.1
+    costBuy: 8000
+    costSell: 6000
+    weight: 4
+    bigSprite: 501
+    floorSprite: 701
+    handSprite: 308
+    bulletSprite: 5
+    fireSound: 35
+    accuracyAuto: 38
+    accuracySnap: 50
+    accuracyAimed: 78
+    hitSound: 19
+    hitAnimation: 36
+    #tuAuto: 30
+    tuSnap: 25
+    tuAimed: 50
+    twoHanded: true
+    compatibleAmmo:
+      - STR_ARROWS
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    listOrder: 4516
+  - type: STR_ARROWS
+    size: 0.2
+    costSell: 1050
+    weight: 2
+    bigSprite: 506
+    floorSprite: 78
+    # handSprite: 216
+    hitSound: 31
+    hitAnimation: 46
+    power: 40
+    damageType: 4
+    clipSize: 20
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+  - type: STR_CROSSBOW
+    size: 0.1
+    costBuy: 8000
+    costSell: 6000
+    weight: 4
+    bigSprite: 502
+    floorSprite: 702
+    handSprite: 316
+    bulletSprite: 5
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 50
+    accuracyAuto: 48
+    accuracySnap: 60
+    accuracyAimed: 88
+    #tuAuto: 25
+    tuSnap: 20
+    tuAimed: 55
+    twoHanded: true
+    listOrder: 4517
+    compatibleAmmo:
+      - STR_BOLTS
+    battleType: 1
+    invWidth: 2       
+    invHeight: 3
+  - type: STR_BOLTS
+    size: 0.2
+    costSell: 1050
+    weight: 2
+    bigSprite: 507
+    floorSprite: 707
+    # handSprite: 216
+    hitSound: 31
+    hitAnimation: 46
+    power: 40
+    damageType: 4
+    clipSize: 20
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+  - type: STR_SWORD
+    # requires:
+    #   - STR_SWORD
+    size: 0.1
+    costBuy: 8000
+    costSell: 6000
+    transferTime: 48
+    weight: 4
+    bigSprite: 503
+    floorSprite: 703
+    handSprite: 324
+    hitAnimation: 36
+    meleeSound: 57
+    accuracyMelee: 100
+    tuMelee: 30
+    power: 50
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    twoHanded: false
+    invWidth: 2
+    invHeight: 3
+    listOrder: 4518
+  - type: STR_SPEAR
+    # requires:
+    #   - STR_SWORD
+    size: 0.1
+    costBuy: 8000
+    costSell: 6000
+    transferTime: 48
+    weight: 4
+    bigSprite: 504 # needs graphic made
+    floorSprite: 704 #needs graphic made
+    handSprite: 332
+    hitAnimation: 36
+    meleeSound: 57
+    accuracyMelee: 100
+    tuMelee: 25
+    power: 40
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    twoHanded: false
+    invWidth: 2
+    invHeight: 3
+    listOrder: 4518
+  - type: STR_SHIELD
+    # requires:
+    #   - STR_SWORD
+    size: 0.1
+    costBuy: 8000
+    costSell: 6000
+    transferTime: 48
+    weight: 6
+    bigSprite: 505 # needs graphic made
+    floorSprite: 705 #needs graphic made
+    handSprite: 340
+    hitAnimation: 36
+    meleeSound: 57
+    accuracyMelee: 100
+    tuMelee: 30
+    power: 40
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    twoHanded: false
+    invWidth: 2
+    invHeight: 3
+    listOrder: 4518
+  - type: STR_FIRE_SPHERE
+    # requires:
+    #   - STR_SWORD
+    manaRequired: true  # default false
+    size: 0.1
+    costBuy: 2000
+    costSell: 1000
+    transferTime: 48
+    weight: 1
+    bigSprite: 508 # needs graphic made
+    floorSprite: 708 #needs graphic made
+    handSprite: 348
+    hitAnimation: 36
+    tuSnap: 20
+    accuracySnap: 50
+    costSnap:
+      time: 18          # 18% of TU
+      mana: 10          # 10 mana points
+    flatSnap:
+      time: false       # % cost
+      mana: true        # flat cost
+    power: 40
+    damageType: 7
+    clipSize: -1
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 1
+    listOrder: 4518

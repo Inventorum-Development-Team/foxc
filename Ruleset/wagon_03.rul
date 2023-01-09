@@ -1,0 +1,138 @@
+﻿#BEGIN CRAFTS
+crafts:
+  - type: STR_WAGON_03
+    # requires:
+    #   - STR_IMPROVED_WAGON
+    sprite: 24
+    fuelMax: 2400
+    damageMax: 360
+    speedMax: 1200
+    accel: 3
+    soldiers: 6
+    vehicles: 3
+    costSell: 345000
+    costRent: 250000
+    refuelRate: 80
+    score: 250
+    battlescapeTerrainData:
+      name: WAGON_03
+      mapDataSets:
+        - BLANKS
+        - WAGON
+      mapBlocks:
+        - name: WAGON_03
+          width: 10
+          length: 10
+    deployment:
+      # - [8, 4, 0, 0]
+      # - [8, 2, 0, 0]
+      # - [8, 6, 0, 0]
+      # - [8, 8, 0, 0]
+      # - [6, 8, 0, 0]
+      # - [4, 8, 0, 0]
+      # - [2, 8, 0, 0]
+      # - [2, 6, 0, 0]
+      # - [2, 4, 0, 0]
+      # - [2, 2, 0, 0]
+      # I drew the short straw, had to pull the cart
+      - [3, 7, 0, 4]
+      # As did I
+      - [5, 7, 0, 4]
+      # Quit whining, as emperor I had to step down the ramp
+      - [7, 3, 0, 2]
+      # Just making sure we were not followed
+      - [1, 1, 0, 1]
+      # They say kneeling for the emperor increases your chance for promotion
+      - [7, 1, 0, 4]
+      # Yup, but i'm not sure if facing the emperor improves my survival chance
+      - [7, 5, 0, 0]
+      # Sigh ... so it is up to me to cover this side 
+      - [7, 7, 0, 3]
+      # Luckily I don't have to look at those morons 
+      - [1, 7, 0, 5]
+      # yup
+      - [1, 3, 0, 7]
+      # ditto
+      - [1, 5, 0, 6]
+#END CRAFTS
+
+##BEGIN RESEARCH
+research:
+  - name: STR_WAGON_03
+    cost: 600
+    points: 20
+    listOrder: 3050
+    # dependencies:
+      # - STR_ALIEN_ALLOYS
+##END RESEARCH
+
+#BEGIN MANUFACTURE
+# manufacture:
+#   - name: STR_SKYSTRIKER
+#     category: STR_CRAFT
+#     requires:
+#       - STR_IMPROVED_SKYRANGER
+#     space: 40
+#     time: 6000
+#     cost: 550000
+#     requiredItems:
+#       STR_ALIEN_ALLOYS: 40
+#       STR_UFO_NAVIGATION: 1
+#     listOrder: 3202
+#END MANUFACTURE
+
+#BEGIN UFOPEDIA
+ufopaedia:
+  - id: STR_SKYSTRIKER
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_IMPROVED_SKYRANGER
+    image_id: SKYSTRIKER.SPK
+    rect_stats:
+      x: 160
+      y: 5
+      width: 160
+      height: 60
+    rect_text:
+      x: 5
+      y: 40
+      width: 140
+      height: 100
+    text: STR_SKYSTRIKER_UFOPEDIA
+    listOrder: 101
+#END UFOPEDIA
+
+##BEGIN EXTRASTRINGS
+extraStrings:
+
+#BEGIN en-US
+  - type: en-US
+    strings: &STRINGS_EN
+      STR_WAGON_02: "Improved Wagon"
+      # STR_SKYSTRIKER: "WAGON 03"
+      # STR_SKYSTRIKER_UFOPEDIA: "A TEST wAGON."
+#END en-US
+
+#BEGIN en-GB
+  - type: en-GB
+    strings: *STRINGS_EN
+#END en-GB
+##END EXTRASTRINGS
+
+#BEGIN EXTRASPRITES
+extraSprites:
+  - type: SKYSTRIKER.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/foxc/Crafts/WAGONS/UfoPaedia_Skystriker.png
+  - type: BASEBITS.PCK
+    files:
+      57: Resources/foxc/Crafts/WAGONS/BaseBits_Skystriker.png
+  - type: INTICON.PCK
+    files:
+      24: Resources/foxc/Crafts/WAGONS/IntIcon_Minimised_Skystriker.png
+      35: Resources/foxc/Crafts/WAGONS/IntIcon_Dogfight_Skystriker.png
+#END EXTRASPRITES

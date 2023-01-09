@@ -1,0 +1,162 @@
+alienRaces: # usually in file AlianRaces.rul
+  - id: STR_WRAITH_Warband
+    members:
+      - STR_WRAITH_COMMANDER #COMMANDER
+      - STR_WRAITH_LEADER # LEADER
+      - STR_WRAITH_SHAMAN # ENGINEER
+      - STR_WRAITH_MEDIC #MEDIC
+      - STR_WRAITH_NAVIGATOR # NAVIGATOR
+      - STR_WRAITH_SOLDIER #SOLDIER
+      - STR_WRAITH_TERRORIST #TERRORIST
+      - STR_WRAITH_TERRORIST #TERRORIST
+units: # Usually in file Armor.rul
+
+  - type: STR_WRAITH_SOLDIER
+    race: STR_WRAITH_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+    armor: STD_WRAITH_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_WRAITH_LEADER
+    rank: STR_LIVE_SOLDIER
+
+  - type: STR_WRAITH_SHAMAN
+    armor: STD_WRAITH_ARMOR_A
+
+  - type: STR_WRAITH_NAVIGATOR
+    armor: STD_WRAITH_ARMOR_A
+
+  - type: STR_WRAITH_MEDIC
+    armor: STD_WRAITH_ARMOR_A
+
+  - type: STR_WRAITH_COMMANDER
+    armor: STD_WRAITH_ARMOR_A
+
+  - type: STR_WRAITH_TERROIST
+    armor: STD_WRAITH_ARMOR_A
+
+
+armors: # Usually in file Armor.rul
+#  - delete: STR_PERSONAL_ARMOR_UC An example of how to remove unwanted utem
+  - type: STD_WRAITH_ARMOR_A  
+    spriteSheet: WRAITH.PCK
+    corpseBattle:
+      - STR_CORPSE_WRAITH
+    allowsKneeling: false
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 14
+    underArmor: 12
+    drawingRoutine: 19  # MUST BE UPDATED TO REFLECT SPRITESET USED AS BASE
+    DAMAGEModifier:
+      - 1.0 # DAMAGE TYPE - NONE
+      - 1.0 # DAMAGE TYPE - ARMOR PIERCING
+      - 1.0 # DAMAGE TYPE - INCENDIARY
+      - 1.0 # DAMAGE TYPE - HIGH EXPLOSIVE
+      - 1.0 # DAMAGE TYPE - LASER
+      - 1.1 # DAMAGE TYPE - PLASMA
+      - 1.0 # DAMAGE TYPE - STUN
+      - 1.2 # DAMAGE TYPE - MELEE
+      - 1.0 # DAMAGE TYPE - ACID
+      - 0.0 # DAMAGE TYPE - SMOKE
+    loftempsSet: [ 3 ]
+    spriteInv: WRAITHInventoryImage      
+ 
+  - type: WRAITH_ARMOR0  #STD WRAITH
+    spriteInv: WRAITHInventoryImage
+
+items: #usually in file ITEMS.rul
+  - type: STR_WRAITH_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_WRAITH_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_WRAITH_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_WRAITH_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_WRAITH_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_WRAITH_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CORPSE_WRAITH #HAIR
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 430     #MUST BE UPDATED TO REFLECT BIGOB SPRITE
+    floorSprite: 630   #MUST BE UPDATED TO REFLECT FLOOROB SPRITE
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+extraSprites:
+# STD WRAITH
+  - type: WRAITH.PCK  #battlescape unit sprites
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOXC/UNITS/WRAITH/wraith_unit.png
+
+  - type: BIGOBS.PCK  #dead unit inventory item
+    files:
+      430: Resources/foxc/UNITS/WRAITH/bigobs_wraith.png
+
+  - type: FLOOROB.PCK #  Dead unit  floor object in battlescape
+    files:
+      630: Resources/foxc/UNITS/WRAITH/floorob_wraith.png
+
+      #Inventory image in battlescape
+  - type: WRAITHInventoryImage.SPK
+    width: 256
+    height: 120
+    singleImage: true
+    files:
+      0: Resources/foxc/UNITS/WRAITH/wraithinv.png
+
+extraSounds:
+- type: BATTLE.CAT
+  files:
+      55: Resources/Sound/AlienAcid.wav # TESTING SOUND ONLY
+      57: Resources/Sound/Secdeath.wav # TESTING SOUND ONLY
+      59: Resources/Sound/Calcinite.wav # TESTING SOUND ONLY
+      60: Resources/Sound/Schrill.wav # TESTING SOUND ONLY
+      61: Resources/Sound/tadeath.wav # TESTING SOUND ONLY

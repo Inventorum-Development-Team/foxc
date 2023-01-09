@@ -1,0 +1,387 @@
+alienRaces: # usually in file AlianRaces.rul
+  - id: STR_ORC_Warband
+    members:
+      - STR_ORC_COMMANDER #COMMANDER
+      - STR_ORC_LEADER # LEADER
+      - STR_ORC_MAGE # ENGINEER
+      - STR_ORC_MEDIC #MEDIC
+      - STR_ORC_NAVIGATOR # NAVIGATOR
+      - STR_ORC_SOLDIER #SOLDIER
+      - STR_ORC_TERRORIST #TERRORIST
+      - STR_ORC_TERRORIST #TERRORIST
+units: # Usually in file Armor.rul
+
+  - type: STR_ORC_SOLDIER
+    race: STR_ORC_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+    armor: STD_ORC_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_ORC_MAGE
+    race: STR_ORC_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+      mana: 100          # mana pool = 100 (+/- global difficulty-based stat adjustment, see below)
+    armor: STD_ORC_MAGE_ARMOR_B
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_ORC_NAVIGATOR
+    race: STR_ORC_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+      mana: 100          # mana pool = 100 (+/- global difficulty-based stat adjustment, see below)
+    armor: STD_ORC_MAGE_ARMOR_B
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_ORC_MEDIC
+    race: STR_ORC_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+      mana: 100          # mana pool = 100 (+/- global difficulty-based stat adjustment, see below)
+    armor: STD_ORC_MAGE_ARMOR_B
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_ORC_TERRORIST
+    race: STR_ORC_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+      mana: 100          # mana pool = 100 (+/- global difficulty-based stat adjustment, see below)
+    armor: STD_ORC_MAGE_ARMOR_B
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_ORC_LEADER
+    race: STR_ORC_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+      mana: 100          # mana pool = 100 (+/- global difficulty-based stat adjustment, see below)
+    armor: STD_ORC_MAGE_ARMOR_B
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_ORC_COMMANDER
+    race: STR_ORC_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+      mana: 100          # mana pool = 100 (+/- global difficulty-based stat adjustment, see below)
+    armor: STD_ORC_MAGE_ARMOR_B
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_ORC_TERROIST
+    race: STR_ORC_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+      mana: 100          # mana pool = 100 (+/- global difficulty-based stat adjustment, see below)
+    armor: STD_ORC_MAGE_ARMOR_B
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+
+armors: # Usually in file Armor.rul
+#  - delete: STR_PERSONAL_ARMOR_UC An example of how to remove unwanted utem
+  - type: STD_ORC_ARMOR_A  
+    spriteSheet: ORC.PCK
+    corpseBattle:
+      - STR_CORPSE_ORC
+    allowsKneeling: false
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 14
+    underArmor: 12
+    drawingRoutine: 10  # MUST BE UPDATED TO REFLECT SPRITESET USED AS BASE
+    damageModifier:
+      - 1.0 # DAMAGE TYPE - NONE
+      - 1.0 # DAMAGE TYPE - ARMOR PIERCING
+      - 1.0 # DAMAGE TYPE - INCENDIARY
+      - 1.0 # DAMAGE TYPE - HIGH EXPLOSIVE
+      - 1.0 # DAMAGE TYPE - LASER
+      - 1.1 # DAMAGE TYPE - PLASMA
+      - 1.0 # DAMAGE TYPE - STUN
+      - 1.2 # DAMAGE TYPE - MELEE
+      - 1.0 # DAMAGE TYPE - ACID
+      - 0.0 # DAMAGE TYPE - SMOKE
+    loftempsSet: [ 3 ]
+    spriteInv: ORCInventoryImage      
+
+  - type: STD_ORC_MAGE_ARMOR_B 
+    spriteSheet: ORC_MAGE.PCK
+    corpseBattle:
+      - STR_CORPSE_ORC_MAGE
+    allowsKneeling: false
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 14
+    underArmor: 12
+    drawingRoutine: 4  # MUST BE UPDATED TO REFLECT SPRITESET USED AS BASE
+    recovery:
+      mana:
+        mana: 0.1           # 10% of total mana pool
+        manaCurrent: 0      #  0% of current mana
+        manaNormalized: 0   #
+    damageModifier:
+      - 1.0 # DAMAGE TYPE - NONE
+      - 1.0 # DAMAGE TYPE - ARMOR PIERCING
+      - 1.0 # DAMAGE TYPE - INCENDIARY
+      - 1.0 # DAMAGE TYPE - HIGH EXPLOSIVE
+      - 1.0 # DAMAGE TYPE - LASER
+      - 1.1 # DAMAGE TYPE - PLASMA
+      - 1.0 # DAMAGE TYPE - STUN
+      - 1.2 # DAMAGE TYPE - MELEE
+      - 1.0 # DAMAGE TYPE - ACID
+      - 0.0 # DAMAGE TYPE - SMOKE
+    loftempsSet: [ 3 ]
+    spriteInv: ORC_MAGEInventoryImage      
+
+  - type: ORC_ARMOR0  #STD ORC
+    spriteInv: ORCInventoryImage
+
+  - type: ORC_MAGE_ARMOR0
+    spriteInv: ORC_MAGEInventoryImage
+
+items: #usually in file ITEMS.rul
+  - type: STR_ORC_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ORC_MAGE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ORC_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ORC_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ORC_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ORC_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CORPSE_ORC
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 401     #MUST BE UPDATED TO REFLECT BIGOB SPRITE
+    floorSprite: 601   #MUST BE UPDATED TO REFLECT FLOOROB SPRITE
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_CORPSE_ORC_MAGE
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 402     #MUST BE UPDATED TO REFLECT BIGOB SPRITE
+    floorSprite: 602   #MUST BE UPDATED TO REFLECT FLOOROB SPRITE
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+extraSprites:
+# STD ORC
+  - type: ORC.PCK  #battlescape unit sprites
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOXC/UNITS/ORC/ORCS1.png
+
+  - type: BIGOBS.PCK  #dead unit inventory item
+    files:
+      401: Resources/foxc/UNITS/ORC/bigobs_orc.png
+
+  - type: FLOOROB.PCK #  Dead unit  floor object in battlescape
+    files:
+      601: Resources/foxc/UNITS/ORC/floorob_orc.png
+
+      #Inventory image in battlescape
+  - type: ORCInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/foxc/UNITS/ORC/savorc2in_full.png
+
+# ORC MAGE
+  - type: ORC_MAGE.PCK  #battlescape unit sprites
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOXC/UNITS/ORC-2/ORC-2A.png
+
+  - type: BIGOBS.PCK  #dead unit inventory item
+    files:
+      402: Resources/foxc/UNITS/ORC-2/bigobs_49_0.png
+
+  - type: FLOOROB.PCK #  Dead unit  floor object in battlescape
+    files:
+      602: Resources/foxc/UNITS/ORC-2/floorob_45_0.png
+
+      #Inventory image in battlescape
+  - type: ORC_MAGEInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/foxc/UNITS/ORC-2/orc-2.png
+
+extraSounds:
+- type: BATTLE.CAT
+  files:
+      55: Resources/Sound/AlienAcid.wav # TESTING SOUND ONLY
+      57: Resources/Sound/Secdeath.wav # TESTING SOUND ONLY
+      59: Resources/Sound/Calcinite.wav # TESTING SOUND ONLY
+      60: Resources/Sound/Schrill.wav # TESTING SOUND ONLY
+      61: Resources/Sound/tadeath.wav # TESTING SOUND ONLY

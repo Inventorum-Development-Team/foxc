@@ -1,0 +1,246 @@
+alienRaces: # usually in file AlianRaces.rul
+  - id: STR_BARBARIAN_Warband
+    members:
+      - STR_BARBARIAN_COMMANDER #COMMANDER
+      - STR_BARBARIAN_LEADER # LEADER
+      - STR_BARBARIAN_SHAMAN # ENGINEER
+      - STR_BARBARIAN_MEDIC #MEDIC
+      - STR_BARBARIAN_NAVIGATOR # NAVIGATOR
+      - STR_BARBARIAN_SOLDIER #SOLDIER
+      - STR_BARBARIAN_TERRORIST #TERRORIST
+      - STR_BARBARIAN_TERRORIST #TERRORIST
+units: # Usually in file Armor.rul
+
+  - type: STR_BARBARIAN_SOLDIER
+    race: STR_BARBARIAN_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+    armor: STD_BARBARIAN_ARMOR_A
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_BARBARIAN_LEADER
+    race: STR_BARBARIAN_RACE
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 80
+      health: 60
+      bravery: 90
+      reactions: 50
+      firing: 85
+      throwing: 70
+      strength: 20
+      psiStrength: 75
+      psiSkill: 0
+      melee: 20
+    armor: STD_BARBARIAN_LEADER_ARMOR_B
+    standHeight: 21
+    kneelHeight: 16
+    value: 10
+    # deathSound: 160
+    intelligence: 8
+    aggression: 3
+    energyRecovery: 40
+
+  - type: STR_BARBARIAN_SHAMAN
+    armor: STD_BARBARIAN_LEADER_ARMOR_B
+
+  - type: STR_BARBARIAN_NAVIGATOR
+    armor: STD_BARBARIAN_ARMOR_A
+
+  - type: STR_BARBARIAN_MEDIC
+    armor: STD_BARBARIAN_ARMOR_A
+
+  - type: STR_BARBARIAN_COMMANDER
+    armor: STD_BARBARIAN_ARMOR_A
+
+  - type: STR_BARBARIAN_TERROIST
+    armor: STD_BARBARIAN_ARMOR_A
+
+
+armors: # Usually in file Armor.rul
+#  - delete: STR_PERSONAL_ARMOR_UC An example of how to remove unwanted utem
+  - type: STD_BARBARIAN_ARMOR_A  
+    spriteSheet: BARBARIAN.PCK
+    corpseBattle:
+      - STR_CORPSE_BARBARIAN
+    allowsKneeling: false
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 14
+    underArmor: 12
+    drawingRoutine: 10  # MUST BE UPDATED TO REFLECT SPRITESET USED AS BASE
+    DAMAGEModifier:
+      - 1.0 # DAMAGE TYPE - NONE
+      - 1.0 # DAMAGE TYPE - ARMOR PIERCING
+      - 1.0 # DAMAGE TYPE - INCENDIARY
+      - 1.0 # DAMAGE TYPE - HIGH EXPLOSIVE
+      - 1.0 # DAMAGE TYPE - LASER
+      - 1.1 # DAMAGE TYPE - PLASMA
+      - 1.0 # DAMAGE TYPE - STUN
+      - 1.2 # DAMAGE TYPE - MELEE
+      - 1.0 # DAMAGE TYPE - ACID
+      - 0.0 # DAMAGE TYPE - SMOKE
+    loftempsSet: [ 3 ]
+    spriteInv: BARBARIANInventoryImage      
+
+  - type: STD_BARBARIAN_LEADER_ARMOR_B 
+    spriteSheet: BARBARIAN_LEADER.PCK
+    corpseBattle:
+      - STR_CORPSE_BARBARIAN_LEADER
+    allowsKneeling: false
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 14
+    underArmor: 12
+    drawingRoutine: 4  # MUST BE UPDATED TO REFLECT SPRITESET USED AS BASE
+    DAMAGEModifier:
+      - 1.0 # DAMAGE TYPE - NONE
+      - 1.0 # DAMAGE TYPE - ARMOR PIERCING
+      - 1.0 # DAMAGE TYPE - INCENDIARY
+      - 1.0 # DAMAGE TYPE - HIGH EXPLOSIVE
+      - 1.0 # DAMAGE TYPE - LASER
+      - 1.1 # DAMAGE TYPE - PLASMA
+      - 1.0 # DAMAGE TYPE - STUN
+      - 1.2 # DAMAGE TYPE - MELEE
+      - 1.0 # DAMAGE TYPE - ACID
+      - 0.0 # DAMAGE TYPE - SMOKE
+    loftempsSet: [ 3 ]
+    spriteInv: BARBARIAN_LEADERInventoryImage     
+
+  - type: BARBARIAN_ARMOR0  #STD BARBARIAN
+    spriteInv: BARBARIANInventoryImage
+
+  - type: BARBARIAN_LEADER_ARMOR0
+    spriteInv: BARBARIAN_LEADERInventoryImage
+
+items: #usually in file ITEMS.rul
+  - type: STR_BARBARIAN_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_BARBARIAN_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_BARBARIAN_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_BARBARIAN_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_BARBARIAN_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_BARBARIAN_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CORPSE_BARBARIAN #HAIR
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 410     #MUST BE UPDATED TO REFLECT BIGOB SPRITE
+    floorSprite: 610   #MUST BE UPDATED TO REFLECT FLOOROB SPRITE
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_CORPSE_BARBARIAN_LEADER # NO HAIR
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 411     #MUST BE UPDATED TO REFLECT BIGOB SPRITE
+    floorSprite: 611   #MUST BE UPDATED TO REFLECT FLOOROB SPRITE
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+extraSprites:
+# STD BARBARIAN
+  - type: BARBARIAN.PCK  #battlescape unit sprites
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOXC/UNITS/BARBARIAN/hbarh.png
+
+  - type: BIGOBS.PCK  #dead unit inventory item
+    files:
+      410: Resources/foxc/UNITS/barbarian/bigobs_bbar.png
+
+  - type: FLOOROB.PCK #  Dead unit  floor object in battlescape
+    files:
+      610: Resources/foxc/UNITS/barbarian/floorob_Barb1.png
+
+      #Inventory image in battlescape
+  - type: BARBARIANInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/foxc/UNITS/barbarian/barInv_2_full.png
+
+# BARBARIAN image
+  - type: BARBARIAN_LEADER.PCK  #battlescape unit sprites
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/FOXC/UNITS/BARBARIAN/bbar.png
+
+  - type: BIGOBS.PCK  #dead unit inventory item
+    files:
+      411: Resources/foxc/UNITS/barbarian/bigobs_hbar.png
+
+  - type: FLOOROB.PCK #  Dead unit  floor object in battlescape
+    files:
+      611: Resources/foxc/UNITS/barbarian/floorob_Barb1.png
+
+      #Inventory image in battlescape
+  - type: BARBARIANInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/foxc/UNITS/barbarian/barInv_full.png
+
+extraSounds:
+- type: BATTLE.CAT
+  files:
+      55: Resources/Sound/AlienAcid.wav # TESTING SOUND ONLY
+      57: Resources/Sound/Secdeath.wav # TESTING SOUND ONLY
+      59: Resources/Sound/Calcinite.wav # TESTING SOUND ONLY
+      60: Resources/Sound/Schrill.wav # TESTING SOUND ONLY
+      61: Resources/Sound/tadeath.wav # TESTING SOUND ONLY

@@ -1,0 +1,45 @@
+# items:
+# ufopaedia:
+#   - id: STR_AXE
+#     type_id: 4
+#     section: STR_WEAPONS_AND_EQUIPMENT
+#     text: STR_AXE_UFOPEDIA
+#     listOrder: 4704
+#   - id: STR_BOW
+#     type_id: 4
+#     section: STR_WEAPONS_AND_EQUIPMENT
+#     text: STR_BOW_UFOPEDIA
+#     listOrder: 4705
+#   - id: STR_CROSSBOW
+#     type_id: 4
+#     section: STR_WEAPONS_AND_EQUIPMENT
+#     text: STR_CROSSBOW_UFOPEDIA
+#     listOrder: 4706
+#   - id: STR_SWORD
+#     type_id: 4
+#     section: STR_WEAPONS_AND_EQUIPMENT
+#     text: STR_SWORD_UFOPEDIA
+#     listOrder: 4707
+
+
+extraStrings:
+  - type: English
+    strings:
+      STR_AXE: Axe
+      STR_AXE_UFOPEDIA: This is an axe! 
+      STR_BOW: Bow
+      STR_BOW_UFOPEDIA: This is a bow! 
+      STR_CROSSBOW: Crossbow
+      STR_CROSSBOW_UFOPEDIA: This is a crossbow! 
+      STR_SWORD: Sword
+      STR_SWORD_UFOPEDIA: This is a sword! 
+  - type: EnglishUk
+    strings:
+      STR_AXE: Axe
+      STR_AXE_UFOPEDIA: This is an axe! 
+      STR_BOW: Bow
+      STR_BOW_UFOPEDIA: This is a bow! 
+      STR_CROSSBOW: Crossbow
+      STR_CROSSBOW_UFOPEDIA: This is a crossbow! 
+      STR_SWORD: Sword
+      STR_SWORD_UFOPEDIA: This is a sword! 

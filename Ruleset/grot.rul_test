@@ -1,0 +1,131 @@
+extraSprites:
+  - type: GROT.PCK
+    width: 640
+    height: 800
+    subX: 32
+    subY: 40
+    files:
+      0: grot.png
+
+  - type: FLOOROB.PCK
+    width: 32
+    height: 40
+    files:
+      100: floorob_grot_corpse0.png
+      101: floorob_grot_corpse1.png
+      102: floorob_grot_corpse2.png
+      103: floorob_grot_corpse3.png
+      104: floorob_grot_corpse4.png
+      105: floorob_grot_corpse5.png
+      106: floorob_grot_corpse6.png
+      107: floorob_grot_corpse7.png
+      108: floorob_grot_corpse8.png
+      109: floorob_grot_corpse9.png
+      110: floorob_grot_corpse10.png
+      111: floorob_grot_corpse11.png
+
+armors:
+  - type: STR_GROT
+    spriteSheet: GROT.PCK
+    corpseBattle:
+      - STR_GROT_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 2 ]
+    scripts:
+      selectUnitSprite: |
+        var int unitID;
+
+        unit.getId unitID; # Base visual on ID to not make as many tags
+        offsetmod unitID 11 0 12; # Make it look somewhat random, picking between the 3 variants
+
+        if eq blit_part blit_torso;
+
+          if neq 0 unitID;
+
+            set sprite_index 268;
+            sub unitID 1;
+            mul unitID 12;
+            add sprite_index unitID;
+
+          end;
+
+        else eq blit_part blit_collapse;
+
+          if neq 0 unitID;
+
+            set sprite_index 276;
+            sub unitID 1;
+            mul unitID 12;
+            add sprite_index unitID;
+
+          end;
+
+        end;
+
+        add sprite_index sprite_offset;
+        return sprite_index;
+
+items:
+  - type: STR_GROT_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 46
+    floorSprite: 100
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    scripts:
+      selectItemSprite: |
+        var ptr BattleUnit unit;
+        var int unitID;
+
+        item.getBattleUnit unit;
+        unit.getId unitID;
+
+        unit.getId unitID; # Base visual on ID to not make as many tags
+        offsetmod unitID 11 0 12; # Make it look somewhat random, picking between the 3 variants
+
+        if or eq blit_part blit_item_floor eq blit_part blit_item_big;
+
+          set sprite_offset unitID;
+
+        end;
+
+        add sprite_index sprite_offset;
+        return sprite_index;
+
+units:
+  - type: STR_GOBLIN_SOLDIER
+    armor: STR_GROT
+
+  - type: STR_GOBLIN_SOLDIER # _ENGINEER
+    armor: STR_GROT
+
+  - type: STR_GOBLIN_SOLDIER # _NAVIGATOR
+    armor: STR_GROT
+
+  - type: STR_GOBLIN_SOLDIER    # _MEDIC
+    armor: STR_GROT
+
+  - type: STR_GOBLIN_SOLDIER   # _LEADER
+    armor: STR_GROT
+
+  - type: STR_SECTOID  # _COMMANDER
+    armor: STR_GROT

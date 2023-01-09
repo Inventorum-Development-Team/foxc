@@ -1,0 +1,22 @@
+alienRaces:
+  ######################### UFO EXPANDED #########################
+  - id: STR_Goblin_Warband
+    members:
+      - STR_GOBLIN_SOLDIER
+      - STR_GOBLIN_SOLDIER
+      - STR_GOBLIN_SOLDIER
+      - STR_GOBLIN_SOLDIER
+      - STR_GOBLIN_SOLDIER
+      - STR_GOBLIN_SOLDIER
+      - STR_GOBLIN_SOLDIER
+      - STR_GOBLIN_SOLDIER
+  - id: STR_GRENDALS_WARBAND
+    members:
+      - STR_CYCLOPS_COMMANDER #COMMANDER
+      - STR_ORC_LEADER # LEADER
+      - STR_ORC_MAGE # ENGINEER
+      - STR_ORC_MEDIC #MEDIC
+      - STR_GOBLIN_SOLDIER
+      - STR_ORC_SOLDIER #SOLDIER
+      - STR_CYCLOPS_TERRORIST #TERRORIST
+      - STR_CYCLOPS_TERRORIST #TERRORIST

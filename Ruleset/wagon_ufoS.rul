@@ -1,0 +1,1411 @@
+ufos: #done
+  - type: WAGON_03
+    size: STR_VERY_SMALL
+    sprite: 0
+    damageMax: 60
+    speedMax: 2000
+    accel: 12
+    power: 0
+    range: 0
+    score: 50
+    reload: 56
+    breakOffTime: 200
+    battlescapeTerrainData:
+      name: WAGON_03
+      mapDataSets:
+        - BLANKS
+        - WAGON
+      mapBlocks:
+        - name: WAGON_03
+          width: 10
+          length: 10
+  - type: WAGON_02
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 300
+    speedMax: 2800
+    accel: 9
+    power: 30
+    range: 13
+    score: 75
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: WAGON_02
+      mapDataSets:
+        - BLANKS
+        - WAGON
+      mapBlocks:
+        - name: WAGON_02
+          width: 10
+          length: 10
+          # items:
+            # STR_ZRBITE:
+            #   - [5, 5, 0]
+  - type: WAGON_01
+    size: STR_SMALL
+    sprite: 2
+    damageMax: 300
+    speedMax: 2600
+    accel: 9
+    power: 25
+    range: 35
+    score: 125
+    reload: 48
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: WAGON_01
+      mapDataSets:
+        - BLANKS
+        - WAGON
+      mapBlocks:
+        - name: WAGON_01
+          width: 10
+          length: 10
+          # items:
+            # STR_ZRBITE:
+            #   - [9, 3, 1]
+  # - type: STR_G_HEAVY_CRUISER
+  #   size: STR_MEDIUM_UC
+  #   sprite: 4
+  #   damageMax: 450
+  #   speedMax: 3800
+  #   accel: 8
+  #   power: 60
+  #   range: 20
+  #   score: 250
+  #   reload: 48
+  #   breakOffTime: 500
+  #   battlescapeTerrainData:
+  #     name: GUFO04
+  #     mapDataSets:
+  #       - BLANKS
+  #       - new_ORGANIC2
+  #       - new_GRUNGE1
+  #       - NEW_XBASES03
+  #       - GRUNGE3
+  #       - NEW_GRUNGE2
+  #       - NEW_GRUNGE2_B
+  #     mapBlocks:
+  #       - name: GUFO04
+  #         width: 20
+  #         length: 20
+  #         items:
+  #           STR_ZRBITE:
+  #             - [5, 16, 1]
+  #             - [6, 16, 1]
+  # - type: STR_G_HUNTER
+  #   size: STR_MEDIUM_UC
+  #   sprite: 3
+  #   damageMax: 500
+  #   speedMax: 4500
+  #   accel: 8
+  #   power: 50
+  #   range: 18
+  #   score: 250
+  #   reload: 32
+  #   breakOffTime: 500
+  #   battlescapeTerrainData:
+  #     name: GUFO05
+  #     mapDataSets:
+  #       - BLANKS
+  #       - new_ORGANIC2
+  #       - new_GRUNGE1
+  #       - NEW_XBASES03
+  #       - GRUNGE3
+  #       - NEW_GRUNGE2
+  #       - NEW_GRUNGE2_B
+  #     mapBlocks:
+  #       - name: GUFO05
+  #         width: 20
+  #         length: 20
+  #         items:
+  #           STR_ZRBITE:
+  #             - [6, 0, 0]
+  #             - [10, 0, 0]
+  # - type: STR_G_BATTLESHIP
+  #   size: STR_LARGE
+  #   sprite: 7
+  #   damageMax: 1400
+  #   speedMax: 4200
+  #   accel: 6
+  #   power: 120
+  #   range: 50
+  #   score: 500
+  #   reload: 24
+  #   breakOffTime: 2000
+  #   battlescapeTerrainData:
+  #     name: GUFO06
+  #     mapDataSets:
+  #       - BLANKS
+  #       - new_ORGANIC2
+  #       - new_GRUNGE1
+  #       - NEW_XBASES03
+  #       - GRUNGE3
+  #       - NEW_GRUNGE2
+  #       - NEW_GRUNGE2_B
+  #     mapBlocks:
+  #       - name: GUFO06
+  #         width: 20
+  #         length: 30
+  #         items:
+  #           STR_ZRBITE:
+  #             - [8, 18, 2]
+  #             - [11, 18, 2]
+  #             - [5, 16, 1]
+  #             - [13, 16, 1]
+  # - type: STR_G_DREADNOUGHT
+  #   size: STR_VERY_LARGE
+  #   sprite: 6
+  #   damageMax: 3400
+  #   speedMax: 4800
+  #   accel: 6
+  #   power: 140
+  #   range: 60
+  #   score: 700
+  #   reload: 24
+  #   breakOffTime: 4000
+  #   battlescapeTerrainData:
+  #     name: GUFO07
+  #     mapDataSets:
+  #       - BLANKS
+  #       - new_ORGANIC2
+  #       - new_GRUNGE1
+  #       - NEW_XBASES03
+  #       - GRUNGE3
+  #       - NEW_GRUNGE2
+  #       - NEW_GRUNGE2_B
+  #     mapBlocks:
+  #       - name: GUFO07
+  #         width: 30
+  #         length: 30
+  #         items:
+  #           STR_ZRBITE:
+  #             - [2, 1, 0]
+  #             - [27, 1, 0]
+  #             - [14, 10, 0]
+  #             - [15, 10, 0]
+  # - type: STR_G_FLEET_SUPPLY_CRUISER
+  #   size: STR_LARGE
+  #   sprite: 5
+  #   damageMax: 2000
+  #   speedMax: 3400
+  #   accel: 6
+  #   power: 70
+  #   range: 38
+  #   score: 400
+  #   reload: 24
+  #   breakOffTime: 3000
+  #   battlescapeTerrainData:
+  #     name: GUFO08
+  #     mapDataSets:
+  #       - BLANKS
+  #       - new_ORGANIC2
+  #       - new_GRUNGE1
+  #       - NEW_XBASES03
+  #       - GRUNGE3
+  #       - NEW_GRUNGE2
+  #       - NEW_GRUNGE2_B
+  #     mapBlocks:
+  #       - name: GUFO08
+  #         width: 20
+  #         length: 30
+  #         items:
+  #           STR_ZRBITE:
+  #             - [10, 17, 1]
+  #             - [10, 20, 1]
+  #             - [11, 19, 2]
+
+
+extraStrings:
+  - type: en-US
+    strings:
+      WAGON_03: WAGON_03
+      WAGON_02: WAGON_02
+      WAGON_01: WAGON_01
+      # STR_G_HEAVY_CRUISER: Ancient Heavy Cruiser
+      # STR_G_HUNTER: Ancient Hunter Ship
+      # STR_G_BATTLESHIP: Ancient Battleship
+      # STR_G_DREADNOUGHT: Ancient Dreadnought
+      # STR_G_FLEET_SUPPLY_CRUISER: Ancient Supply Cruiser
+
+
+alienDeployments: #done
+  - type: WAGON_03
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+    width: 40
+    length: 40
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: WAGON_02
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets: 
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+    width: 40
+    length: 40
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: WAGON_01
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets: 
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets: 
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets: 
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_VIBRO_BLADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  # - type: STR_G_HEAVY_CRUISER
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 5
+  #       highQty: 9
+  #       dQty: 4
+  #       percentageOutsideUfo: 70
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 2
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 30
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_SONIC_PULSER
+  #   width: 50
+  #   length: 50
+  #   height: 5
+  #   briefing:
+  #     palette: 4
+  #     music: GMISPOSH
+  # - type: STR_G_HUNTER
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 3
+  #       highQty: 5
+  #       dQty: 4
+  #       percentageOutsideUfo: 70
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 1
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 3
+  #       lowQty: 2
+  #       highQty: 4
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 2
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 30
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #   width: 50
+  #   length: 50
+  #   height: 5
+  #   briefing:
+  #     palette: 4
+  #     music: GMISPOSH
+  # - type: STR_G_BATTLESHIP
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 1
+  #       percentageOutsideUfo: 70
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_THERMIC_LANCE
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets: 
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets: 
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets: 
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 50
+  #   length: 50
+  #   height: 5
+  #   briefing:
+  #     palette: 4
+  #     music: GMISPOSH
+  # - type: STR_G_DREADNOUGHT
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 8
+  #       dQty: 4
+  #       percentageOutsideUfo: 50
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_CANNON_POWER_CLIP
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #     - alienRank: 0
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #     - alienRank: 6
+  #       lowQty: 0
+  #       highQty: 2
+  #       dQty: 1
+  #       percentageOutsideUfo: 50
+  #       itemSets: 
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 0
+  #       highQty: 2
+  #       dQty: 1
+  #       percentageOutsideUfo: 50
+  #       itemSets: 
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 50
+  #   length: 50
+  #   height: 5
+  #   briefing:
+  #     palette: 4
+  #     music: GMISPOSH
+  # - type: STR_G_FLEET_SUPPLY_CRUISER
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 5
+  #       highQty: 7
+  #       dQty: 6
+  #       percentageOutsideUfo: 50
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_CANNON_POWER_CLIP
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets: 
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #   width: 50
+  #   length: 50
+  #   height: 5
+  #   briefing:
+  #     palette: 4
+  #     music: GMISPOSH
+
+
+# alienMissions: #done
+#   - type: STR_ALIEN_PROBE_MISSION
+#     points: 0
+#     raceWeights:
+#       0:
+#           STR_AQUATOID: 70
+#           STR_GILLMAN: 30
+#       1:
+#           STR_AQUATOID: 60
+#           STR_GILLMAN: 30
+#           STR_LOBSTERMAN: 10
+#       3:
+#           STR_AQUATOID: 30
+#           STR_GILLMAN: 40
+#           STR_LOBSTERMAN: 30
+#       5:
+#           STR_AQUATOID: 20
+#           STR_GILLMAN: 10
+#           STR_LOBSTERMAN: 40
+#           STR_TASOTH: 30
+#       7:
+#           STR_AQUATOID: 20
+#           STR_GILLMAN: 20
+#           STR_LOBSTERMAN: 20
+#           STR_TASOTH: 40
+#     waves:
+#       - ufo: WAGON_03
+#         count: 1
+#         trajectory: P0
+#         timer: 9000
+#       - ufo: STR_SURVEY_SHIP
+#         count: 1
+#         trajectory: P0
+#         timer: 9000
+#       - ufo: WAGON_02
+#         count: 1
+#         trajectory: P2
+#         timer: 7800
+#       - ufo: STR_ESCORT
+#         count: 1
+#         trajectory: P2
+#         timer: 7800
+#       - ufo: WAGON_01
+#         count: 1
+#         trajectory: P4
+#         timer: 9000
+#       - ufo: STR_CRUISER
+#         count: 1
+#         trajectory: P4
+#         timer: 9000
+#   - type: STR_ALIEN_INTERDICTION
+#     points: 30
+#     raceWeights:
+#       0:
+#           STR_AQUATOID: 50
+#           STR_GILLMAN: 50
+#       1:
+#           STR_AQUATOID: 50
+#           STR_GILLMAN: 50
+#       3:
+#           STR_AQUATOID: 30
+#           STR_GILLMAN: 50
+#           STR_LOBSTERMAN: 20
+#       5:
+#           STR_AQUATOID: 10
+#           STR_LOBSTERMAN: 40
+#           STR_TASOTH: 50
+#       7:
+#           STR_AQUATOID: 30
+#           STR_LOBSTERMAN: 30
+#           STR_TASOTH: 40
+#     waves:
+#       - ufo: WAGON_03
+#         count: 1
+#         trajectory: P0
+#         timer: 7800
+#       - ufo: STR_SURVEY_SHIP
+#         count: 1
+#         trajectory: P2
+#         timer: 7800
+#       - ufo: STR_ESCORT
+#         count: 1
+#         trajectory: P2
+#         timer: 6000
+#       - ufo: WAGON_01
+#         count: 1
+#         trajectory: P0
+#         timer: 7800
+#       - ufo: STR_CRUISER
+#         count: 1
+#         trajectory: P3
+#         timer: 9000
+#       - ufo: STR_G_HUNTER
+#         count: 1
+#         trajectory: P4
+#         timer: 3000
+#       - ufo: STR_HUNTER
+#         count: 1
+#         trajectory: P4
+#         timer: 750
+#       - ufo: STR_DREADNOUGHT
+#         count: 1
+#         trajectory: P2
+#         timer: 1500
+#   - type: STR_ALIEN_RESOURCE_RAID
+#     points: 50
+#     raceWeights:
+#       0:
+#           STR_AQUATOID: 60
+#           STR_GILLMAN: 40
+#       1:
+#           STR_AQUATOID: 40
+#           STR_GILLMAN: 60
+#       3:
+#           STR_AQUATOID: 50
+#           STR_GILLMAN: 50
+#       5:
+#           STR_AQUATOID: 30
+#           STR_TASOTH: 70
+#       7:
+#           STR_AQUATOID: 50
+#           STR_TASOTH: 50
+#     waves:
+#       - ufo: STR_SURVEY_SHIP
+#         count: 1
+#         trajectory: P0
+#         timer: 15000
+#       - ufo: STR_ESCORT
+#         count: 1
+#         trajectory: P1
+#         timer: 9000
+#       - ufo: WAGON_02
+#         count: 1
+#         trajectory: P1
+#         timer: 9000
+#       - ufo: STR_CRUISER
+#         count: 1
+#         trajectory: P3
+#         timer: 9000
+#       - ufo: WAGON_01
+#         count: 1
+#         trajectory: P3
+#         timer: 9000
+#       - ufo: STR_G_HEAVY_CRUISER
+#         count: 1
+#         trajectory: P3
+#         timer: 9000
+#       - ufo: STR_HEAVY_CRUISER
+#         count: 2
+#         trajectory: P4
+#         timer: 60
+#   - type: STR_ALIEN_INFILTRATION
+#     points: 0
+#     objective: 1
+#     spawnZone: 4 #Mission zone for alien bases
+#     raceWeights:
+#       0:
+#           STR_AQUATOID: 60
+#           STR_GILLMAN: 40
+#       1:
+#           STR_AQUATOID: 50
+#           STR_GILLMAN: 30
+#           STR_LOBSTERMAN: 20
+#       3:
+#           STR_AQUATOID: 20
+#           STR_GILLMAN: 50
+#           STR_LOBSTERMAN: 30
+#       5:
+#           STR_AQUATOID: 10
+#           STR_GILLMAN: 30
+#           STR_LOBSTERMAN: 20
+#           STR_TASOTH: 40
+#       7:
+#           STR_AQUATOID: 30
+#           STR_GILLMAN: 10
+#           STR_LOBSTERMAN: 50
+#           STR_TASOTH: 10
+#     waves:
+#       - ufo: STR_SURVEY_SHIP
+#         count: 1
+#         trajectory: P0
+#         timer: 16500
+#       - ufo: WAGON_02
+#         count: 1
+#         trajectory: P1
+#         timer: 15000
+#       - ufo: STR_ESCORT
+#         count: 1
+#         trajectory: P6
+#         timer: 13800
+#       - ufo: WAGON_01
+#         count: 1
+#         trajectory: P7
+#         timer: 9000
+#       - ufo: STR_CRUISER
+#         count: 1
+#         trajectory: P7
+#         timer: 60
+#       - ufo: STR_BATTLESHIP
+#         count: 1
+#         trajectory: P7
+#         timer: 60
+#       - ufo: STR_FLEET_SUPPLY_CRUISER
+#         count: 1
+#         trajectory: P7
+#         timer: 60
+#       - ufo: STR_G_DREADNOUGHT
+#         count: 1
+#         trajectory: P7
+#         timer: 60
+#       - ufo: STR_DREADNOUGHT
+#         count: 1
+#         trajectory: P7
+#         timer: 60
+#   - type: STR_ALIEN_BASE
+#     points: 50
+#     objective: 2
+#     spawnZone: 4 #Mission zone for alien bases
+#     raceWeights:
+#       0:
+#           STR_AQUATOID: 30
+#           STR_GILLMAN: 70
+#       1:
+#           STR_AQUATOID: 40
+#           STR_GILLMAN: 40
+#           STR_LOBSTERMAN: 20
+#       3:
+#           STR_AQUATOID: 10
+#           STR_GILLMAN: 30
+#           STR_LOBSTERMAN: 60
+#       5:
+#           STR_AQUATOID: 10
+#           STR_GILLMAN: 40
+#           STR_LOBSTERMAN: 30
+#           STR_TASOTH: 20
+#       7:
+#           STR_AQUATOID: 10
+#           STR_GILLMAN: 20
+#           STR_LOBSTERMAN: 60
+#           STR_TASOTH: 10
+#     waves:
+#       - ufo: STR_SURVEY_SHIP
+#         count: 1
+#         trajectory: P1
+#         timer: 13500
+#       - ufo: STR_ESCORT
+#         count: 1
+#         trajectory: P5
+#         timer: 15000
+#       - ufo: STR_CRUISER
+#         count: 1
+#         trajectory: P5
+#         timer: 60
+#       - ufo: STR_G_FLEET_SUPPLY_CRUISER
+#         count: 1
+#         trajectory: P5
+#         timer: 60
+#       - ufo: STR_FLEET_SUPPLY_CRUISER
+#         count: 1
+#         trajectory: P5
+#         timer: 60
+#       - ufo: STR_DREADNOUGHT
+#         count: 1
+#         trajectory: P6
+#         timer: 60
+#   - type: STR_ALIEN_SURFACE_ATTACK
+#     points: 10
+#     objective: 3
+#     spawnZone: 3 #Mission zone for terror missions
+#     raceWeights:
+#       0:
+#           STR_GILLMAN: 100
+#       1:
+#           STR_AQUATOID: 20
+#           STR_GILLMAN: 80
+#       3:
+#           STR_AQUATOID: 20
+#           STR_GILLMAN: 30
+#           STR_LOBSTERMAN: 50
+#       5:
+#           STR_AQUATOID: 10
+#           STR_GILLMAN: 30
+#           STR_LOBSTERMAN: 20
+#           STR_TASOTH: 20
+#           STR_MIXED_CREW: 20
+#       7:
+#           STR_AQUATOID: 20
+#           STR_GILLMAN: 20
+#           STR_LOBSTERMAN: 20
+#           STR_TASOTH: 10
+#           STR_MIXED_CREW: 30
+#     waves:
+#       - ufo: STR_ESCORT
+#         count: 1
+#         trajectory: P1
+#         timer: 15000
+#       - ufo: STR_CRUISER
+#         count: 1
+#         trajectory: P1
+#         timer: 9600
+#       - ufo: STR_G_BATTLESHIP
+#         count: 1
+#         trajectory: P0
+#         timer: 12000
+#       - ufo: STR_BATTLESHIP
+#         count: 1
+#         trajectory: P7
+#         timer: 9000
+#         objective: true
+#   - type: STR_ALIEN_RETALIATION
+#     points: 0
+#     objective: 4
+#     spawGUFO: STR_DREADNOUGHT #Spawned for the final retaliation run
+#     raceWeights:
+#       0:
+#         STR_AQUATOID: 20
+#         STR_GILLMAN: 20
+#         STR_TASOTH: 20
+#         STR_LOBSTERMAN: 20
+#     waves:
+#       - ufo: WAGON_03
+#         count: 1
+#         trajectory: P8
+#         timer: 3000
+#       - ufo: STR_SURVEY_SHIP
+#         count: 1
+#         trajectory: P8
+#         timer: 3000
+#       - ufo: WAGON_02
+#         count: 1
+#         trajectory: P8
+#         timer: 3000
+#       - ufo: STR_ESCORT
+#         count: 1
+#         trajectory: P8
+#         timer: 3000
+#       - ufo: WAGON_01
+#         count: 1
+#         trajectory: P8
+#         timer: 3000
+#       - ufo: STR_CRUISER
+#         count: 2
+#         trajectory: P8
+#         timer: 3000
+#       - ufo: STR_G_DREADNOUGHT
+#         count: 1
+#         trajectory: P8
+#         timer: 3000
+#       - ufo: STR_DREADNOUGHT
+#         count: 1
+#         trajectory: P8
+#         timer: 3000
+#   - type: STR_ALIEN_SUPPLY
+#     points: 0
+#     objective: 5
+#     raceWeights: {} #Special case, race comes from base.
+#     waves:
+#       - ufo: STR_FLEET_SUPPLY_CRUISER
+#         count: 1
+#         trajectory: P9
+#         timer: 6000
+#         objective: true
+#       - ufo: STR_G_FLEET_SUPPLY_CRUISER
+#         count: 1
+#         trajectory: P9
+#         timer: 6000
+#         objective: true
