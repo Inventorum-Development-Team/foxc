@@ -240,21 +240,21 @@ alienDeployments: #done
         percentageOutsideUfo: 50
         itemSets: 
           -
-            - STR_SONIC_PISTOL
-            - STR_PISTOL_POWER_CLIP
-            - STR_PISTOL_POWER_CLIP
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
           -
-            - STR_SONIC_PISTOL
-            - STR_PISTOL_POWER_CLIP
-            - STR_PISTOL_POWER_CLIP
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
+            - STR_ARROWS
+            - STR_ARROWS
           -
-            - STR_SONIC_BLASTA_RIFLE
-            - STR_BLASTA_POWER_CLIP
-            - STR_BLASTA_POWER_CLIP
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_BOW
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
     width: 40
     length: 40
     height: 5
@@ -270,21 +270,21 @@ alienDeployments: #done
         percentageOutsideUfo: 60
         itemSets: 
           -
-            - STR_SONIC_PISTOL
-            - STR_PISTOL_POWER_CLIP
-            - STR_PISTOL_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
+            - STR_ARROWS
           -
-            - STR_SONIC_BLASTA_RIFLE
-            - STR_BLASTA_POWER_CLIP
-            - STR_BLASTA_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_BOW
+            - STR_BOW
+            - STR_ARROWS
           -
-            - STR_SONIC_BLASTA_RIFLE
-            - STR_BLASTA_POWER_CLIP
-            - STR_BLASTA_POWER_CLIP
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_BOW
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -292,21 +292,21 @@ alienDeployments: #done
         percentageOutsideUfo: 20
         itemSets: 
           -
-            - STR_SONIC_PISTOL
-            - STR_PISTOL_POWER_CLIP
-            - STR_PISTOL_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
+            - STR_ARROWS
           -
-            - STR_SONIC_BLASTA_RIFLE
-            - STR_BLASTA_POWER_CLIP
-            - STR_BLASTA_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_BOW
+            - STR_BOW
+            - STR_ARROWS
           -
-            - STR_SONIC_BLASTA_RIFLE
-            - STR_BLASTA_POWER_CLIP
-            - STR_BLASTA_POWER_CLIP
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_BOW
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
     width: 40
     length: 40
     height: 5
@@ -322,20 +322,20 @@ alienDeployments: #done
         percentageOutsideUfo: 65
         itemSets: 
           -
-            - STR_SONIC_PISTOL
-            - STR_PISTOL_POWER_CLIP
-            - STR_PISTOL_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
+            - STR_ARROWS
           -
-            - STR_SONIC_BLASTA_RIFLE
-            - STR_BLASTA_POWER_CLIP
-            - STR_BLASTA_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_BOW
+            - STR_BOW
+            - STR_ARROWS
           -
-            - STR_SONIC_CANNON
-            - STR_CANNON_POWER_CLIP
-            - STR_CANNON_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_SWORD
+            - STR_BOWS
+            - STR_BOWS
+            - STR_ARROWS
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -343,21 +343,21 @@ alienDeployments: #done
         percentageOutsideUfo: 25
         itemSets: 
           -
-            - STR_SONIC_PISTOL
-            - STR_PISTOL_POWER_CLIP
-            - STR_PISTOL_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
+            - STR_ARROWS
           -
-            - STR_SONIC_CANNON
-            - STR_CANNON_POWER_CLIP
-            - STR_CANNON_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_SWORD
+            - STR_BOWS
+            - STR_BOWS
+            - STR_ARROWS
           -
-            - STR_SONIC_CANNON
-            - STR_CANNON_POWER_CLIP
-            - STR_CANNON_POWER_CLIP
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
+            - STR_SWORD
+            - STR_BOWS
+            - STR_BOWS
+            - STR_ARROWS
+            - STR_ARROWS
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -365,21 +365,21 @@ alienDeployments: #done
         percentageOutsideUfo: 35
         itemSets: 
           -
-            - STR_SONIC_BLASTA_RIFLE
-            - STR_BLASTA_POWER_CLIP
-            - STR_BLASTA_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_BOW
+            - STR_BOW
+            - STR_ARROWS
           -
-            - STR_SONIC_CANNON
-            - STR_CANNON_POWER_CLIP
-            - STR_CANNON_POWER_CLIP
-            - STR_SONIC_PULSER
+            - STR_SWORD
+            - STR_BOWS
+            - STR_BOWS
+            - STR_ARROWS
           -
-            - STR_VIBRO_BLADE
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
-            - STR_SONIC_PULSER
+            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
+            - STR_ARROWS
+            - STR_ARROWS
     width: 50
     length: 50
     height: 5
@@ -395,20 +395,20 @@ alienDeployments: #done
   #       percentageOutsideUfo: 70
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #     - alienRank: 4
   #       lowQty: 1
   #       highQty: 2
@@ -416,22 +416,22 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_PISTOL
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #     - alienRank: 3
   #       lowQty: 1
   #       highQty: 2
@@ -442,19 +442,19 @@ alienDeployments: #done
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
   #         -
   #           - STR_DISRUPTOR_PULSE_LAUNCHER
   #           - STR_DISRUPTOR_AMMO
   #           - STR_DISRUPTOR_AMMO
   #           - STR_DISRUPTOR_AMMO
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
   #     - alienRank: 2
   #       lowQty: 2
   #       highQty: 2
@@ -462,22 +462,22 @@ alienDeployments: #done
   #       percentageOutsideUfo: 30
   #       itemSets: 
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_BOWS
   #         -
   #           - STR_DISRUPTOR_PULSE_LAUNCHER
   #           - STR_DISRUPTOR_AMMO
   #           - STR_DISRUPTOR_AMMO
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMIC_LANCE
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #     - alienRank: 1
   #       lowQty: 1
   #       highQty: 1
@@ -485,10 +485,10 @@ alienDeployments: #done
   #       percentageOutsideUfo: 0
   #       itemSets: 
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
@@ -500,7 +500,7 @@ alienDeployments: #done
   #           - STR_DISRUPTOR_AMMO
   #           - STR_DISRUPTOR_AMMO
   #           - STR_DISRUPTOR_AMMO
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
   #   width: 50
   #   length: 50
   #   height: 5
@@ -516,22 +516,22 @@ alienDeployments: #done
   #       percentageOutsideUfo: 70
   #       itemSets: 
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_BOWS
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
   #         -
   #           - STR_DISRUPTOR_PULSE_LAUNCHER
   #           - STR_DISRUPTOR_AMMO
   #           - STR_DISRUPTOR_AMMO
   #           - STR_DISRUPTOR_AMMO
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
   #     - alienRank: 4
   #       lowQty: 1
   #       highQty: 1
@@ -539,22 +539,22 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_DISRUPTOR_PULSE_LAUNCHER
   #           - STR_DISRUPTOR_AMMO
   #           - STR_DISRUPTOR_AMMO
   #           - STR_DISRUPTOR_AMMO
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
   #     - alienRank: 3
   #       lowQty: 2
   #       highQty: 4
@@ -562,22 +562,22 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
   #     - alienRank: 2
   #       lowQty: 2
   #       highQty: 2
@@ -585,23 +585,23 @@ alienDeployments: #done
   #       percentageOutsideUfo: 30
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_HEAVY_THERMIC_LANCE
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #     - alienRank: 1
   #       lowQty: 1
   #       highQty: 1
@@ -609,16 +609,16 @@ alienDeployments: #done
   #       percentageOutsideUfo: 0
   #       itemSets: 
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_DISRUPTOR_PULSE_LAUNCHER
   #           - STR_DISRUPTOR_AMMO
@@ -640,20 +640,20 @@ alienDeployments: #done
   #       percentageOutsideUfo: 70
   #       itemSets: 
   #         -
-  #           - STR_SONIC_PISTOL
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
   #     - alienRank: 4
   #       lowQty: 1
   #       highQty: 2
@@ -661,10 +661,10 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_PISTOL
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
@@ -672,10 +672,10 @@ alienDeployments: #done
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
   #           - STR_MC_READER
   #     - alienRank: 3
   #       lowQty: 1
@@ -684,22 +684,22 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
   #           - STR_MC_READER
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
   #     - alienRank: 2
   #       lowQty: 1
   #       highQty: 2
@@ -707,20 +707,20 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_PISTOL
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
   #           - STR_THERMIC_LANCE
   #         -
   #           - STR_HEAVY_THERMIC_LANCE
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #     - alienRank: 1
   #       lowQty: 1
   #       highQty: 1
@@ -772,16 +772,16 @@ alienDeployments: #done
   #       percentageOutsideUfo: 50
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
@@ -795,23 +795,23 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_PISTOL
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #     - alienRank: 3
   #       lowQty: 1
   #       highQty: 2
@@ -819,16 +819,16 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_DISRUPTOR_PULSE_LAUNCHER
   #           - STR_DISRUPTOR_AMMO
@@ -842,21 +842,21 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMIC_LANCE
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_HEAVY_THERMIC_LANCE
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #     - alienRank: 1
   #       lowQty: 1
   #       highQty: 3
@@ -864,14 +864,14 @@ alienDeployments: #done
   #       percentageOutsideUfo: 0
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_BOWS
   #         -
   #           - STR_DISRUPTOR_PULSE_LAUNCHER
   #           - STR_DISRUPTOR_AMMO
@@ -885,15 +885,15 @@ alienDeployments: #done
   #       percentageOutsideUfo: 0
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
@@ -939,20 +939,20 @@ alienDeployments: #done
   #       percentageOutsideUfo: 50
   #       itemSets: 
   #         -
-  #           - STR_SONIC_PISTOL
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #     - alienRank: 4
   #       lowQty: 1
   #       highQty: 2
@@ -960,19 +960,19 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_PISTOL
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_CANNON
-  #           - STR_CANNON_POWER_CLIP
-  #           - STR_SONIC_PULSER
-  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SWORD
+  #           - STR_BOWS
+  #           - STR_ARROWS
+  #           - STR_BOWS
   #     - alienRank: 3
   #       lowQty: 1
   #       highQty: 2
@@ -980,20 +980,20 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_PISTOL
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
   #           - STR_THERMAL_SHOK_LAUNCHER
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
   #           - STR_THERMAL_SHOK_BOMB
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
   #     - alienRank: 2
   #       lowQty: 1
   #       highQty: 2
@@ -1001,13 +1001,13 @@ alienDeployments: #done
   #       percentageOutsideUfo: 20
   #       itemSets: 
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
   #         -
   #           - STR_THERMIC_LANCE
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
   #           - STR_DISRUPTOR_PULSE_LAUNCHER
   #           - STR_DISRUPTOR_AMMO
@@ -1021,19 +1021,19 @@ alienDeployments: #done
   #       percentageOutsideUfo: 0
   #       itemSets: 
   #         -
-  #           - STR_SONIC_PISTOL
-  #           - STR_PISTOL_POWER_CLIP
-  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_BOW
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #         -
-  #           - STR_SONIC_BLASTA_RIFLE
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_BLASTA_POWER_CLIP
-  #           - STR_SONIC_PULSER
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_BOW
+  #           - STR_ARROWS
   #         -
   #           - STR_HEAVY_THERMIC_LANCE
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
-  #           - STR_SONIC_PULSER
+  #           - STR_ARROWS
+  #           - STR_ARROWS
+  #           - STR_ARROWS
   #   width: 50
   #   length: 50
   #   height: 5

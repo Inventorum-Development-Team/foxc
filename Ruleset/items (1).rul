@@ -92,7 +92,7 @@ items:
     bigSprite: 500
     floorSprite: 700
     handSprite: 300
-    meleeSound: 57
+    meleeSound: 39
     hitAnimation: 0
     accuracyMelee: 100
     tuMelee: 30

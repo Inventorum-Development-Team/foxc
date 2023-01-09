@@ -1,10 +1,10 @@
 armors:
   - type: GOBLIN_ARMOR0
-    spriteInv: GoblinInventoryImage
-  - type: WRAITH_ARMOR0
-    spriteInv: GoblinInventoryImage
-  - type: ORC_ARMOR0
-    spriteInv: GoblinInventoryImage
+  #  spriteInv: GoblinInventoryImage
+  #- type: WRAITH_ARMOR0
+  #  spriteInv: GoblinInventoryImage
+  #- type: ORC_ARMOR0
+  #  spriteInv: GoblinInventoryImage
 
 extraSprites:
   # - type: TEXTURE.DAT

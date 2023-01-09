@@ -95,13 +95,13 @@ alienDeployments:
             - STR_ARROWS
           -
             - STR_BOW
-            - STR_BOW
-            - STR_BOW
+            - STR_ARROWS
+            - STR_ARROWS
           -
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -117,11 +117,11 @@ alienDeployments:
             - STR_BOW
             - STR_BOW
             - STR_ARROWS
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
     width: 50
     length: 50
     height: 5
@@ -143,7 +143,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -156,7 +156,7 @@ alienDeployments:
           -
             - STR_BOW
             - STR_BOW
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_SPEAR
             - STR_SHIELD
@@ -168,21 +168,25 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+            - STR_SPEAR
+            - STR_SHIELD
+            - STR_SHIELD
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+            #- STR_STUN_BOMB
       - alienRank: 2
         lowQty: 2
         highQty: 2
@@ -209,18 +213,18 @@ alienDeployments:
           -
             - STR_SWORD
             - STR_SWORD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SWORD
           -
             - STR_BOW
             - STR_BOW
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_BOW
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
     width: 50
     length: 50
@@ -243,7 +247,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 4
         lowQty: 1
@@ -262,7 +266,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 3
         lowQty: 2
@@ -277,7 +281,7 @@ alienDeployments:
           -
             - STR_BOW
             - STR_BOW
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_BOW
           -
             - STR_SPEAR
@@ -301,7 +305,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 1
         lowQty: 1
@@ -320,7 +324,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
     width: 50
     length: 50
@@ -340,12 +344,12 @@ alienDeployments:
           -
             - STR_BOW
             - STR_BOW
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_BOW
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 4
         lowQty: 1
@@ -374,18 +378,18 @@ alienDeployments:
           -
             - STR_SWORD
             - STR_SWORD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SWORD
           -
             - STR_BOW
             - STR_BOW
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_BOW
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -403,7 +407,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 1
         lowQty: 1
@@ -422,7 +426,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 6
         lowQty: 1
@@ -470,7 +474,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 4
         lowQty: 1
@@ -490,7 +494,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -501,16 +505,16 @@ alienDeployments:
             - STR_SWORD
             - STR_SWORD
             - STR_SWORD
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
           -
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -545,7 +549,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -562,14 +566,14 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -623,7 +627,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -642,7 +646,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -657,11 +661,11 @@ alienDeployments:
             - STR_BOW
             - STR_BOW
             - STR_BOW
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -680,7 +684,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -699,7 +703,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
     width: 50
     length: 50
     height: 5
@@ -718,12 +722,12 @@ alienDeployments:
           -
             - STR_BOW
             - STR_BOW
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_BOW
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 4
         lowQty: 1
@@ -752,18 +756,18 @@ alienDeployments:
           -
             - STR_SWORD
             - STR_SWORD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SWORD
           -
             - STR_BOW
             - STR_BOW
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_BOW
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -781,7 +785,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 1
         lowQty: 1
@@ -800,7 +804,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 6
         lowQty: 1
@@ -884,7 +888,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -903,7 +907,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 1
@@ -918,11 +922,11 @@ alienDeployments:
             - STR_BOW
             - STR_BOW
             - STR_BOW
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -957,7 +961,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -974,17 +978,17 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
     width: 50
     length: 50
     height: 5
@@ -1025,7 +1029,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 4
         lowQty: 1
@@ -1045,7 +1049,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -1056,16 +1060,16 @@ alienDeployments:
             - STR_SWORD
             - STR_SWORD
             - STR_SWORD
-          -
-            - STR_SMALL_LAUNCHER
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
-            - STR_STUN_BOMB
+          #-
+          #  - STR_SMALL_LAUNCHER
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
+          #  #- STR_STUN_BOMB
           -
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 2
         lowQty: 1
         highQty: 2
@@ -1100,7 +1104,7 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -1117,14 +1121,14 @@ alienDeployments:
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_SPEAR
             - STR_SHIELD
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
           -
             - STR_BLASTER_LAUNCHER
             - STR_BLASTER_BOMB
@@ -1182,7 +1186,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 1
         lowQty: 3
         highQty: 5
@@ -1198,7 +1202,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 0
         lowQty: 3
         highQty: 5
@@ -1214,7 +1218,7 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
       - alienRank: 6
         lowQty: 2
         highQty: 4
@@ -1254,17 +1258,17 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 1
         lowQty: 1
@@ -1275,17 +1279,17 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 2
         lowQty: 3
@@ -1320,17 +1324,17 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 4
         lowQty: 3
@@ -1341,17 +1345,17 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 5
         lowQty: 3
@@ -1362,17 +1366,17 @@ alienDeployments:
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
           -
             - STR_SPEAR
             - STR_SHIELD
-            - STR_ALIEN_GRENADE
+            #- STR_ALIEN_GRENADE
             - STR_SHIELD
       - alienRank: 6
         lowQty: 1
