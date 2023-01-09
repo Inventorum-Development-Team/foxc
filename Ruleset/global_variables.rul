@@ -11,8 +11,8 @@ items:
   - type: STR_PISTOL
     manaExperience: 250    # this means 2 mana experience points + 50% chance for a 3rd exp point (on every hit on hostile unit)
 
-    facilities:
-  - type: STR_MAGE_GUILD
+facilities:
+  - type: STR_GENERAL_STORES
     manaRecoveryPerDay: 3
 
     
