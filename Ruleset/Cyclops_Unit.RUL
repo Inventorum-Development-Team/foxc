@@ -206,8 +206,8 @@ armors: # Usually in file Armor.rul
     loftempsSet: [ 3 ]
     spriteInv: CYCLOPSInventoryImage      
  
-  - type: CYCLOPS_ARMOR0  #STD CYCLOPS
-    spriteInv: CYCLOPSInventoryImage
+  #- type: CYCLOPS_ARMOR0  #STD CYCLOPS
+  #  spriteInv: CYCLOPSInventoryImage
 
 items: #usually in file ITEMS.rul
   - type: STR_CYCLOPS_SOLDIER

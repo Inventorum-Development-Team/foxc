@@ -2,7 +2,7 @@ alienRaces: # usually in file AlianRaces.rul
   - id: STR_WRAITH_Warband
     members:
       - STR_WRAITH_COMMANDER #COMMANDER
-      - STR_WRAITH_LEADER # LEADER
+      #- STR_WRAITH_LEADER # LEADER
       - STR_WRAITH_SHAMAN # ENGINEER
       - STR_WRAITH_MEDIC #MEDIC
       - STR_WRAITH_NAVIGATOR # NAVIGATOR
@@ -35,8 +35,8 @@ units: # Usually in file Armor.rul
     aggression: 3
     energyRecovery: 40
 
-  - type: STR_WRAITH_LEADER
-    rank: STR_LIVE_SOLDIER
+  #- type: STR_WRAITH_LEADER
+  #  rank: STR_LIVE_SOLDIER
 
   - type: STR_WRAITH_SHAMAN
     armor: STD_WRAITH_ARMOR_A
@@ -80,8 +80,8 @@ armors: # Usually in file Armor.rul
     loftempsSet: [ 3 ]
     spriteInv: WRAITHInventoryImage      
  
-  - type: WRAITH_ARMOR0  #STD WRAITH
-    spriteInv: WRAITHInventoryImage
+  #- type: WRAITH_ARMOR0  #STD WRAITH
+  #  spriteInv: WRAITHInventoryImage
 
 items: #usually in file ITEMS.rul
   - type: STR_WRAITH_SOLDIER
@@ -89,11 +89,11 @@ items: #usually in file ITEMS.rul
     recover: true
     liveAlien: true
     costSell: 60000
-  - type: STR_WRAITH_LEADER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
+  #- type: STR_WRAITH_LEADER
+  #  size: 0.0
+  #  recover: true
+  #  liveAlien: true
+  #  costSell: 60000
   - type: STR_WRAITH_NAVIGATOR
     size: 0.0
     recover: true
@@ -104,11 +104,11 @@ items: #usually in file ITEMS.rul
     recover: true
     liveAlien: true
     costSell: 60000
-  - type: STR_WRAITH_LEADER
-    size: 0.0
-    recover: true
-    liveAlien: true
-    costSell: 60000
+  #- type: STR_WRAITH_LEADER
+  #  size: 0.0
+   # recover: true
+   # liveAlien: true
+   # costSell: 60000
   - type: STR_WRAITH_COMMANDER
     size: 0.0
     recover: true

@@ -1,5 +1,5 @@
-armors:
-  - type: GOBLIN_ARMOR0
+#armors:
+  #- type: GOBLIN_ARMOR0
   #  spriteInv: GoblinInventoryImage
   #- type: WRAITH_ARMOR0
   #  spriteInv: GoblinInventoryImage
